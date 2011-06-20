@@ -1,0 +1,280 @@
+DEBUG 2011-06-06 13:09:50,796  1031ms QBClient               .ctor              - This is a DEBUG level message. The most VERBOSE level.
+INFO  2011-06-06 13:09:50,843  1078ms QBClient               .ctor              - Extended information, with higher importance than the Debug call
+WARN  2011-06-06 13:09:50,843  1078ms QBClient               .ctor              - An unexpected but recoverable situation occurred
+DEBUG 2011-06-06 13:22:23,796   656ms LogHelper              Debug              - click login button
+DEBUG 2011-06-06 13:28:33,614   500ms LogHelper              Debug              - click login button
+DEBUG 2011-06-06 13:28:34,396  1281ms LogHelper              Debug              - Log in:test
+DEBUG 2011-06-06 13:28:34,396  1281ms LogHelper              Debug              - Log in:123
+DEBUG 2011-06-06 13:28:34,396  1281ms LogHelper              Debug              - Log in:<?xml version="1.0" encoding="UTF-8"?><errors><error>The account is online!</error></errors>
+DEBUG 2011-06-06 13:33:33,614   484ms LogHelper              Debug              - click login button
+DEBUG 2011-06-06 13:33:34,677  1547ms LogHelper              Debug              - Log in:test
+DEBUG 2011-06-06 13:33:34,677  1547ms LogHelper              Debug              - Log in:123
+DEBUG 2011-06-06 13:33:34,677  1547ms LogHelper              Debug              - Log in:<?xml version="1.0" encoding="UTF-8"?>
+<account>
+  <account-name nil="true"></account-name>
+  <company-file>C:\Documents and Settings\All Users\Documents\Intuit\QuickBooks\Company Files\YangziMade.QBW</company-file>
+  <company-marker>99</company-marker>
+  <created-at type="datetime">2011-06-01T23:30:24Z</created-at>
+  <id type="integer">1</id>
+  <login-time type="datetime">2011-06-06T20:33:34Z</login-time>
+  <status>Online</status>
+  <sync-marker nil="true"></sync-marker>
+  <sync-time type="datetime" nil="true"></sync-time>
+  <token type="integer">99</token>
+  <updated-at type="datetime">2011-06-06T20:33:34Z</updated-at>
+  <user-id type="integer" nil="true"></user-id>
+</account>
+
+DEBUG 2011-06-06 13:35:19,648 106517ms LogHelper              Debug              - Received Msg from:admin@yangzi-lius-macbook-pro.local type:normal
+DEBUG 2011-06-06 13:35:19,741 106611ms LogHelper              Debug              - /QB/Status
+
+DEBUG 2011-06-06 13:35:25,508 112378ms LogHelper              Debug              - Sent Msg to:admin@yangzi-lius-macbook-pro.local type:chat
+DEBUG 2011-06-06 13:35:25,508 112378ms LogHelper              Debug              - <QBStatus>Alive</QBStatus>
+DEBUG 2011-06-06 13:35:25,805 112675ms LogHelper              Debug              - Received Msg from:admin@yangzi-lius-macbook-pro.local type:normal
+DEBUG 2011-06-06 13:35:25,805 112675ms LogHelper              Debug              - /QB/ProcessRequest
+<?xml version="1.0" ?>
+<?qbxml version="8.0" ?>
+<QBXML>
+  <QBXMLMsgsRq onError="stopOnError">
+    <CompanyQueryRq>
+      <OwnerID>{E09C86CF-9D6E-4EF2-BCBE-4D66B6B0F754}</OwnerID>
+    </CompanyQueryRq>
+  </QBXMLMsgsRq>
+</QBXML>
+DEBUG 2011-06-06 13:35:29,837 116707ms LogHelper              Debug              - Sent Msg to:admin@yangzi-lius-macbook-pro.local type:chat
+DEBUG 2011-06-06 13:35:29,837 116707ms LogHelper              Debug              - <?xml version="1.0" ?>
+<QBXML>
+<QBXMLMsgsRs>
+<CompanyQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+<CompanyRet>
+<IsSampleCompany>false</IsSampleCompany>
+<CompanyName>YangziMade</CompanyName>
+<LegalCompanyName>YangziMade</LegalCompanyName>
+<AddressBlock>
+<Addr1> </Addr1>
+</AddressBlock>
+<FirstMonthFiscalYear>January</FirstMonthFiscalYear>
+<FirstMonthIncomeTaxYear>January</FirstMonthIncomeTaxYear>
+<CompanyType>GeneralProductbasedBusiness</CompanyType>
+<TaxForm>Form1040</TaxForm>
+<SubscribedServices>
+<Service>
+<Name>QuickBooks Online Banking</Name>
+<Domain>banking.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Online Billing</Name>
+<Domain>billing.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Online Billing Level 1 Service</Name>
+<Domain>qbob1.qbn</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Online Billing Level 2 Service</Name>
+<Domain>qbob2.qbn</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Online Billing Payment Service</Name>
+<Domain>qbobpay.qbn</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Bill Payment</Name>
+<Domain>billpay.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Online Billing Paper Mailing Service</Name>
+<Domain>qbobpaper.qbn</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Payroll Service</Name>
+<Domain>payroll.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Basic Payroll Service</Name>
+<Domain>payrollbsc.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Basic Disk Payroll Service</Name>
+<Domain>payrollbscdisk.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Deluxe Payroll Service</Name>
+<Domain>payrolldlx.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Premier Payroll Service</Name>
+<Domain>payrollprm.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>Basic Plus Federal</Name>
+<Domain>basic_plus_fed.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>Basic Plus Federal and State</Name>
+<Domain>basic_plus_fed_state.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>Basic Plus Direct Deposit</Name>
+<Domain>basic_plus_dd.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>Merchant Account Service</Name>
+<Domain>mas.qbn</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+</SubscribedServices>
+<AccountantCopy>
+<AccountantCopyExists>false</AccountantCopyExists>
+</AccountantCopy>
+<DataExtRet>
+<OwnerID>{E09C86CF-9D6E-4EF2-BCBE-4D66B6B0F754}</OwnerID>
+<DataExtName>LevionMarker</DataExtName>
+<DataExtType>STR255TYPE</DataExtType>
+<DataExtValue>--- 
+company_marker: &quot;99&quot;</DataExtValue>
+</DataExtRet>
+</CompanyRet>
+</CompanyQueryRs>
+</QBXMLMsgsRs>
+</QBXML>
+
+DEBUG 2011-06-06 13:35:30,306 117176ms LogHelper              Debug              - Received Msg from:admin@yangzi-lius-macbook-pro.local type:normal
+DEBUG 2011-06-06 13:35:30,306 117176ms LogHelper              Debug              - /QB/ProcessRequest
+<?xml version="1.0" ?>
+<?qbxml version="8.0" ?>
+<QBXML>
+  <QBXMLMsgsRq onError="stopOnError">
+    <CompanyQueryRq>
+      <OwnerID>{E09C86CF-9D6E-4EF2-BCBE-4D66B6B0F754}</OwnerID>
+    </CompanyQueryRq>
+  </QBXMLMsgsRq>
+</QBXML>
+DEBUG 2011-06-06 13:35:34,822 121692ms LogHelper              Debug              - Sent Msg to:admin@yangzi-lius-macbook-pro.local type:chat
+DEBUG 2011-06-06 13:35:34,822 121692ms LogHelper              Debug              - <?xml version="1.0" ?>
+<QBXML>
+<QBXMLMsgsRs>
+<CompanyQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+<CompanyRet>
+<IsSampleCompany>false</IsSampleCompany>
+<CompanyName>YangziMade</CompanyName>
+<LegalCompanyName>YangziMade</LegalCompanyName>
+<AddressBlock>
+<Addr1> </Addr1>
+</AddressBlock>
+<FirstMonthFiscalYear>January</FirstMonthFiscalYear>
+<FirstMonthIncomeTaxYear>January</FirstMonthIncomeTaxYear>
+<CompanyType>GeneralProductbasedBusiness</CompanyType>
+<TaxForm>Form1040</TaxForm>
+<SubscribedServices>
+<Service>
+<Name>QuickBooks Online Banking</Name>
+<Domain>banking.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Online Billing</Name>
+<Domain>billing.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Online Billing Level 1 Service</Name>
+<Domain>qbob1.qbn</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Online Billing Level 2 Service</Name>
+<Domain>qbob2.qbn</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Online Billing Payment Service</Name>
+<Domain>qbobpay.qbn</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Bill Payment</Name>
+<Domain>billpay.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Online Billing Paper Mailing Service</Name>
+<Domain>qbobpaper.qbn</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Payroll Service</Name>
+<Domain>payroll.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Basic Payroll Service</Name>
+<Domain>payrollbsc.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Basic Disk Payroll Service</Name>
+<Domain>payrollbscdisk.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Deluxe Payroll Service</Name>
+<Domain>payrolldlx.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>QuickBooks Premier Payroll Service</Name>
+<Domain>payrollprm.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>Basic Plus Federal</Name>
+<Domain>basic_plus_fed.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>Basic Plus Federal and State</Name>
+<Domain>basic_plus_fed_state.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>Basic Plus Direct Deposit</Name>
+<Domain>basic_plus_dd.qb</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+<Service>
+<Name>Merchant Account Service</Name>
+<Domain>mas.qbn</Domain>
+<ServiceStatus>Never</ServiceStatus>
+</Service>
+</SubscribedServices>
+<AccountantCopy>
+<AccountantCopyExists>false</AccountantCopyExists>
+</AccountantCopy>
+<DataExtRet>
+<OwnerID>{E09C86CF-9D6E-4EF2-BCBE-4D66B6B0F754}</OwnerID>
+<DataExtName>LevionMarker</DataExtName>
+<DataExtType>STR255TYPE</DataExtType>
+<DataExtValue>--- 
+company_marker: &quot;99&quot;</DataExtValue>
+</DataExtRet>
+</CompanyRet>
+</CompanyQueryRs>
+</QBXMLMsgsRs>
+</QBXML>
+
