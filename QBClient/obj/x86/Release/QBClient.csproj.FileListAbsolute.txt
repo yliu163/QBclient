@@ -22,3 +22,5 @@ C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\QBClientwithRest\QBClient\obj\x86\Release\QBClient.NotPassCompanyFileValidationDialog.resources
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\QBClientwithRest\QBClient\obj\x86\Release\QBClient.AgreeToFullSyncDialog.resources
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\QBClientwithRest\QBClient\obj\x86\Release\QBClient.NoHttpResponseDialog.resources
+C:\Documents and Settings\Administrator\My Documents\Backup\QBClientwithRest20110615HandleHttpXmppEx\QBClient\obj\x86\Release\QBClient.exe
+C:\Documents and Settings\Administrator\My Documents\Backup\QBClientwithRest20110615HandleHttpXmppEx\QBClient\obj\x86\Release\QBClient.pdb

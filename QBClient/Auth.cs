@@ -10,6 +10,7 @@ namespace QBClient
 {
     class Auth
     {
+        //test
         XMPPCommandsHandler m_xmppCH;
 
         PresenceInformer m_presenceInformer;
